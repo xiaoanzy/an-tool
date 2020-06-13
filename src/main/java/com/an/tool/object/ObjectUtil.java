@@ -13,6 +13,11 @@ import java.util.Map;
 public class ObjectUtil {
 
 
+    public static boolean isNull(Object o) {
+        return null == o;
+    }
+
+
     /**
      * 校验对象参数为空
      *
