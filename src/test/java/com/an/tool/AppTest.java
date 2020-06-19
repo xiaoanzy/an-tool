@@ -1,5 +1,6 @@
 package com.an.tool;
 
+import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
@@ -14,5 +15,10 @@ public class AppTest {
     @Test
     public void shouldAnswerWithTrue() {
         assertTrue(true);
+    }
+
+    @Test
+    public void dwqn() {
+        System.out.println(JSON.toJSONString(new User()));
     }
 }
